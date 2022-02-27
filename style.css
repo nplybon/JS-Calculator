@@ -1,0 +1,22 @@
+body {
+    background-color: #727272;
+}
+
+/* Group for buttons */
+.btn-group button {
+    background-color: #450084;
+    border: 2px solid rgb(0, 0, 0);
+    color: white; 
+    padding: 10px 38px;
+    cursor: pointer; 
+    float: left;
+  }
+
+  /* Change color on hover */
+  .btn-group button:hover {
+    background-color: #CBB677;
+  }
+  .input {
+      display: inline-block;
+      text-align: center;
+  }

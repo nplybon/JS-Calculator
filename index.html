@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>JavaScript Calculator</title>
-  </head>
+
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Calculator</title>
+  <link rel="stylesheet" href=style.css>
+</head>
+
 <body>
-<h1> JavaScript Calculator</h1>
-<div>
-<input type="text" id="num-one"><input type="text" id="num-two">
-<button id="add">+</button>
-<button id="sub">-</button>
-<button id="mult">x</button>
-<button id="div">/</button>
-</div>
-<h2 id="result"></h2>
+  <h1> JavaScript Calculator</h1>
+  <p>To use this calculator, enter in two numbers and then press an operator button to see the result.</p>
+  <input class = "input" type="text" id="num-one">
+  <input class = "input" type="text" id="num-two">
+  <h2 id="result">0</h2>
+  <div class="btn-group">
+    <button id="add">+</button>
+    <button id="sub">-</button>
+    <button id="mult">x</button>
+    <button id="div">/</button>
+  </div>
 </body>
 <script src="index.js"></script>
+
 </html>
